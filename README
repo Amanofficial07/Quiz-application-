@@ -1,0 +1,37 @@
+------------------------------------------------------------->>>>>>> Online Quiz System - User Management <<<<<<<------------------------------------------------------------------
+---------->>>>Project Overview
+This project is a User Management System for an online quiz platform. It includes HTML templates for login, registration, and user profile management, styled with CSS and Bootstrap for responsive design. JavaScript is used for form validation and interactivity, ensuring a smooth user experience.
+
+--------------------------------------------------------------->>>>> Project Features <<<<<<<-------------------------------------------------------
+  
+1. User Registration: Allows users to sign up with their name, email, and password.
+2. Login Form: Allows users to log into the platform using their email and password.
+3. User Profile: Displays the user's profile information (e.g., name, email) after logging in.
+4. Form Validation:
+->Email format validation.
+->Password strength validation (minimum length, contains uppercase, lowercase, and numbers).
+->"Confirm password" field validation.
+5. Responsive Design: Uses Bootstrap for mobile-first design and layout, ensuring the application is usable on various screen sizes.
+6. Interactive Feedback: Displays error messages in real-time and highlights the form fields that need correction.
+
+------------------------------------------->>>>>>> Files Description <<<<<<<<<<--------------------------------------------------------------------
+
+css/styles.css: Contains custom styles for the project, including form input styling, button designs, and layout adjustments.
+js/script.js: Contains JavaScript for validating form inputs, displaying error messages, and ensuring password strength.
+login.html: The login form for user authentication.
+register.html: The registration form for new users to sign up.
+profile.html: A sample user profile page to view the user's information
+
+------------------------------->>>>>>>>>>>>>>>>>>  HOW TO RUN  <<<<<<<<<<<---------------------------------------------------------------------------
+----->>>>Open the HTML files: You can directly open any of the HTML files in a browser:
+
+index.html: The landing page
+login.html: The login page
+register.html: The registration page
+profile.html: The user profile page
+
+------->>>>Test form functionality:
+
+Try submitting the forms with valid and invalid data.
+Check for real-time validation errors such as empty fields, invalid email format, and password strength.
+Ensure responsiveness by resizing the browser window or testing on different devices.
