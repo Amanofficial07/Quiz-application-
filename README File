@@ -1,0 +1,74 @@
+----------------------------------------------->>>>>>>>>>> Quiz Application <<<<<<<<---------------------------------------------------------
+This repository contains the source code and resources for an Online Quiz Application built using Java for the backend, HTML, CSS, and JavaScript for the frontend. The project implements user management features like login, registration, quiz-taking functionality, and scoring.
+
+------------------->>>>>>  Project Overview
+The Online Quiz Application allows users to:
+
+1.Log in securely.
+2.Register as new users.
+3.Take quizzes based on predefined rules.
+4.View scores after completing the quiz.
+
+The project structure ensures modularity and readability for easier maintenance and scalability.
+
+-------------------------------------------------->>>>>>>>>>>>>>> Project Structure <<<<<<<<<----------------------------------------------------
+--------->>>>>> Main Directories
+1.build/classes:
+Contains compiled .class files for the Java backend.
+
+2.icons:
+Stores images and icons used in the application, such as login.jpeg, quiz.jpg, and score.png.
+
+3.nbproject:
+NetBeans project files for managing build settings and configurations.
+
+4.src:
+Contains the Java source files organized under the quiz/application package.
+
+5.CSS:
+Contains external stylesheets for different sections of the application:
+
+-login.css: Styles for the login page.
+-profile.css: Styles for the user profile page.
+-registration.css: Styles for the registration page.
+
+6.HTML:
+Contains the HTML templates for the frontend:
+
+-login.html: Login page.
+-profile.html: User profile page.
+-registration.html: Registration page.
+
+7.JS:
+Contains JavaScript files to add interactivity and validation:
+
+-login.js: Handles login form validation.
+-registration.js: Handles registration form validation and password strength checks.
+
+------------>>>>>> Important Files
+1.build.xml:
+Ant build script for automating the compilation and packaging process.
+
+2.manifest.mf:
+Manifest file for the Java application, specifying entry points and application metadata.
+
+3.Login.java, Quiz.java, Rules.java, Score.java:
+Core backend files for the Java application:
+
+-Login.java: Handles user authentication.
+-Quiz.java: Manages quiz questions and user interactions.
+-Rules.java: Defines rules for taking the quiz.
+-Score.java: Displays the final score and feedback.
+
+------------>>>>>>>>>>> Images and Resources
+
+login.jpeg: Background or icon for the login page.
+quiz.jpg: Visual representation used in the quiz section.
+score.png: Icon or image for the score display.
+
+-------->>>  How to Run
+-Prerequisites:
+
+1.Java Development Kit (JDK) installed.
+2.NetBeans IDE (or any other Java-supported IDE).
+3.A modern web browser for the frontend.
